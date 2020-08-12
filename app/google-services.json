@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525416858389",
+    "firebase_url": "https://koncisepeda-8dd4b.firebaseio.com",
+    "project_id": "koncisepeda-8dd4b",
+    "storage_bucket": "koncisepeda-8dd4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525416858389:android:ce4fe6a736c31c3ce55f1c",
+        "android_client_info": {
+          "package_name": "com.example.koncisepeda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525416858389-kipu10tgv1jkkd5m2mecmcp3ophotis1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koncisepeda",
+            "certificate_hash": "8d9e23678cc9e44638924aa8e71dec64a7ccfebf"
+          }
+        },
+        {
+          "client_id": "525416858389-hh75rqun6iq19msmgpgrifmi72jleb3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1-y6XQZTyGMtx4k3_mKBICYcYQxv4LdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525416858389-hh75rqun6iq19msmgpgrifmi72jleb3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

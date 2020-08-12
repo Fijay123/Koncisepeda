@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:windowSoftInputMode="adjustResize"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/motor"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Seting Perintah Suara"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="50dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Perintah Menghidupkan"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="left"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/seting_hidup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="  "
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:padding="@dimen/activity_vertical_margin"
+            android:theme="@style/WhiteFocus"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Perintah Mematikan"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="left"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/seting_mati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="  "
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:padding="@dimen/activity_vertical_margin"
+            android:theme="@style/WhiteFocus"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnsimpankondisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="80dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

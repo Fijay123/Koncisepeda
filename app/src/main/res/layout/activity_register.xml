@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:windowSoftInputMode="adjustResize"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:text="ISI FORM REGISTRASI"
+            android:textSize="30dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/motor"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/edtEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Masukkan Email"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:padding="@dimen/activity_vertical_margin"
+            android:theme="@style/WhiteFocus"/>
+
+        <EditText
+            android:id="@+id/edtPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="Masukkan Pasword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:padding="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:theme="@style/WhiteFocus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="80dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".RegisterActivity"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Silakan diisi untuk Registrasi"-->
+<!--        android:textSize="30sp"-->
+<!--        android:id="@+id/tvSambutan"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/edtEmailRegister"-->
+<!--        android:hint="Email"-->
+<!--        android:textSize="25sp"-->
+<!--        android:inputType="textEmailAddress"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textSize="25sp"-->
+<!--        android:id="@+id/edtPasswordRegister"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Register"-->
+<!--            android:textSize="20sp"-->
+<!--            android:id="@+id/btnRegisterUser" />-->
+
+<!--    </LinearLayout>-->
+
+<!--</RelativeLayout>-->
